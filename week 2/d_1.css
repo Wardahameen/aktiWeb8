@@ -1,0 +1,56 @@
+.backgroundBlue {
+    background-color: rgba(165, 42, 42, 0.881);
+}
+ .textWhite {
+    color: rgba(255, 255, 255, 0.719);
+ }
+ .customStyles {
+    background-color: yellow;
+    color: pink;
+    width: fit-content;
+    border: 5px groove rgba(165, 42, 42, 0.881);
+    margin-top: 40px;
+}
+.customDiv
+{
+    background-color: blue;
+    color: chartreuse;
+    width: 50%;
+    border: 10px;
+	margin: 60px;
+	padding: 70px ;
+}
+.btnStyles {
+    background-color: rgb(107, 78, 4);
+    color: rgba(244, 244, 244, 0.989);
+    border-radius: 50%;
+    border-bottom-left-radius: 25%;
+}
+.btnStyles :hover 
+{
+    background-color: rgba(165, 42, 42, 0.881) ;
+    color: rgb(193, 133, 53);
+    cursor: pointer;
+
+}
+.mediaStyles
+{
+    background-color: lightsalmon;
+    color: yellowgreen;
+    width: 500px;
+    height: 50%;
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .mediaStyles{
+    background-color: rgb(144, 255, 122);
+    color: rgb(205, 50, 148);
+    width: 500px;
+    height: 50%;
+    }
+    .btnStyles {
+        background-color: rgb(11, 4, 107);
+        color: rgba(244, 244, 244, 0.989);
+        border-radius: 50%;
+        border-bottom-left-radius: 25%;
+    }
+}
