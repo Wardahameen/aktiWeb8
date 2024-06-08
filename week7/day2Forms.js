@@ -1,4 +1,4 @@
-import { FORM_API_KEY } from "../secrets/apiKeys/formAPi.js";
+import { FORM_API_KEY_CONFIG } from "../config/config.js";
 
 const name = document.getElementById(`name`);
 const email = document.getElementById(`email`);
@@ -21,7 +21,7 @@ const handleContactFormSubmit = async (e) => {
     } else {
       // net par
       const formApiResponse = await axios.post(
-        FORM_API_KEY,
+        FORM_API_KEY_CONFIG,
         contactFormData
       );
       console.log(formApiResponse);
