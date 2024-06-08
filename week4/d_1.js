@@ -1,7 +1,7 @@
-//console.log("it's JS file")
-//alert("JS file ")
-//document.getElementById ("MathsAns").innerHTML(2*4)
-// mathematical fn's--interaction with CPU
+// //console.log("it's JS file")
+// //alert("JS file ")
+document.getElementById ("MathsAns").innerHTML = 2*4
+// // mathematical fn's--interaction with CPU
 
 console.log(4+4)
 console.log(4-4)
@@ -39,11 +39,11 @@ console.log (PI)
   console.log(typeof(marks))
   
   //string concotention
-  //let firstName= "Wardah"
-  //let lastName= "Ameen"
-  //let fullName=firstName+" "+lastName
+  let firstName = "Wardah"
+  let lastName = "Ameen"
+  let fullName = firstName+" "+lastName
   //string indexing
-  //console.log(firstName(5))
+  console.log(firstName[5])
 
   console.log(2>=6)
   console.log((3>4)&&(5<=6))
